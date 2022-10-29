@@ -1,3 +1,4 @@
+
 function main() {
   var arr = [];
   for (arr_i = 0; arr_i < 6; arr_i++) {
@@ -5,6 +6,8 @@ function main() {
     arr[arr_i] = arr[arr_i].map(Number);
   }
 
+  
+  
   var sumArray = [];
   for (i = 0; i < arr.length; i++) {
 
